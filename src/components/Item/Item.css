@@ -1,0 +1,11 @@
+img{
+    width: 250px;
+}
+
+.anItem{
+    border-color: black;
+    border-style:solid;
+    border-radius: 2.5%;
+    border-width: 2px;
+    margin:4%;
+}

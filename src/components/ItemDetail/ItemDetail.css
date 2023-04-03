@@ -1,0 +1,10 @@
+.Card_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.Card_text{
+    flex-direction: column;
+    
+}

@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "name": "Vela Ibiza",
+        "price": 2500,
+        "description": "La fragancia que necesitas para tu día a día",
+        "img": "../../publicAssets/IMG IBIZA.jpg",
+        "category": "velas",
+        "stock": 13
+    },
+    {
+        "id": 2,
+        "name": "Vela Mallorca",
+        "price": 2800,
+        "description": "El placer de llegar a tu casa",
+        "img": "../../publicAssets/IMG MALLORCA.jpg",
+        "category": "velas",
+        "stock": 15
+    },
+    {
+        "id": 3,
+        "name": "Vela Marbella",
+        "price": 3350,
+        "description": "Te acompaña en todas tus tardes",
+        "img": "../../publicAssets/IMG MARBELLA.jpg",
+        "category": "velas",
+        "stock": 9
+    },
+    {
+        "id": 4,
+        "name": "Vela Toronto",
+        "price": 2250,
+        "description": "La fragancia que vos elegís",
+        "img": "../../publicAssets/IMG TORONTO.jpg",
+        "category": "velas",
+        "stock": 27
+    },
+    {
+        "id": 5,
+        "name": "Difusor bogotá",
+        "price": 1500,
+        "description": "El perfume que te va a hacer quedar bien siempre",
+        "img": "../../publicAssets/Difusor Bogotá.JPG",
+        "category": "otros",
+        "stock": 42
+    },
+    {
+        "id": 6,
+        "name": "Espejo Berlín",
+        "price": 9300,
+        "description": "El espejo que nunca te va a mentir",
+        "img": "../../publicAssets/Espejo Berlin.JPG",
+        "category": "espejos",
+        "stock": 34
+    },
+    {
+        "id": 7,
+        "name": "Espejo Oslo",
+        "price": 9800,
+        "description": "Para que te veas tal cual sos",
+        "img": "../../publicAssets/Espejo Oslo.JPG",
+        "category": "espejos",
+        "stock": 13
+    },
+    {
+        "id": 8,
+        "name": "Espejo Tokio",
+        "price": 10300,
+        "description": "El toque fino que necesitabas",
+        "img": "../../publicAssets/Espejo Tokio.JPG",
+        "category": "espejos",
+        "stock": 15
+    },
+    {
+        "id": 9,
+        "name": "Maceta Viena",
+        "price": 3350,
+        "description": "Te acompaña en todas tus tardes",
+        "img": "../../publicAssets/Maceta Viena.JPG",
+        "category": "macetas",
+        "stock": 9
+    },
+    {
+        "id": 10,
+        "name": "Maceta Yeda",
+        "price": 2250,
+        "description": "La fragancia que vos elegís",
+        "img": "../../publicAssets/Maceta Yeda.JPG",
+        "category": "macetas",
+        "stock": 27
+    },
+    {
+        "id": 11,
+        "name": "Manta Nápoles",
+        "price": 3550,
+        "description": "El perfume que te va a hacer quedar bien siempre",
+        "img": "../../publicAssets/Manta Nápoles.JPG",
+        "category": "otros",
+        "stock": 42
+    }
+]

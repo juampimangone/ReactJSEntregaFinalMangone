@@ -9,7 +9,7 @@ const Item = ({ item }) => {
             <img className='img-fluid' src={item.img} alt="img" />
             <p>Precio: ${item.price}</p>
             <p><small>Categoría: {item.category}</small></p>
-            <Link to={`/detail/${item.id}`} className='btn btn-dark'>Más detalles sobre este producto!</Link>
+            <Link to={`/detail/${item.id}`} className='btn btn-dark info_btn'>Más detalles sobre este producto!</Link>
         </div>
     )
 }

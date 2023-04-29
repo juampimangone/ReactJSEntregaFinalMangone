@@ -1,8 +1,9 @@
-.list-container{
-max-width: 900px;
-margin: 40px auto;
+
+.list-container {
+    max-width: 900px;
+    margin: 40px auto;
 }
 
-.list-container__title{
-color: grey;
+.list-container__title {
+    color: grey;
 }

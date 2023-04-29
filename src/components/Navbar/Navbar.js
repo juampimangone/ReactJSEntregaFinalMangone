@@ -1,12 +1,15 @@
-import './Navbar.css'
-import logo from '../../assets/LogoIndra.jpeg'
+import './Navbar.scss'
+import logo from '../../assets/LogoIndraNegativo.png'
 import CartWidget from '../CartWidget/CartWidget'
 import { Link } from 'react-router-dom'
+import { useContext } from 'react'
+import { LoginContext } from '../../context/LoginContext'
 
-export const Navbar = () => {
+export const Navbar = ({red}) => {
+    const { user, logout } = useContext(LoginContext)
 
     return (
-        <header className="header">
+        <header className="header" style={{backgroundColor: red ? 'red' : 'black'}}>
             <div className="header__container">
                 <img src={logo} className="header__logo" alt='logo'/>
 
@@ -19,9 +22,15 @@ export const Navbar = () => {
                     <Link to='/productos/alfombras' className="navbar__link">Alfombras</Link>
                     <Link to='/productos/almohadones' className="navbar__link">Almohadones</Link>
                     <Link to='/productos/otros' className="navbar__link">Otros</Link>
+                    <Link to='/nosotros' className="navbar__link">Nosotros</Link>
                 </nav>
 
                 <CartWidget />
+            </div>
+
+            <div className='user'>
+                <h6>Bienvenido: {user.email}</h6>
+                <button className='btn btn-danger' onClick={logout}>Cerrar sesión</button>
             </div>
         </header>
     )

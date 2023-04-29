@@ -1,0 +1,25 @@
+
+.cart-widget {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+
+    .cart-icon {
+        color: white;
+        font-size: 28px;
+    }
+
+    span {
+        color: white;
+        font-size: 20px;
+    }
+
+    &-active {
+        visibility: visible;
+        opacity: 1;
+    }
+}

@@ -14,29 +14,30 @@ const ItemCount = ({stock, cantidad, setCantidad, agregar}) => {
 
     return (
         <div>
-            <button 
-                onClick={handleRestar} 
-                className={`btn 
-                ${cantidad === 1 ? 'minimo' : ''} 
-                ${cantidad === 1 ? 'btn-outline-danger' : 'btn-outline-primary'}`}
-                disabled={cantidad === 1 || stock === 0}
-            >
-                -
-            </button>
+            <div>
+                <button 
+                    onClick={handleRestar} 
+                    className={`btn 
+                    ${cantidad === 1 ? 'minimo' : ''} 
+                    ${cantidad === 1 ? 'btn-outline-danger' : 'btn-outline-dark'}`}
+                    disabled={cantidad === 1 || stock === 0 }
+                >
+                    -
+                </button>
 
-            <span className="mx-3">{cantidad}</span>
+                <span className="mx-3">{cantidad}</span>
 
-            <button 
-                onClick={handleSumar} 
-                className={cantidad === stock ? "btn btn-danger" : "btn btn-primary"}
-                disabled={cantidad === stock || stock === 0}
-            >
-                +
-            </button>
-
+                <button 
+                    onClick={handleSumar} 
+                    className={cantidad === stock ? "btn btn-danger" : "btn btn-dark"}
+                    disabled={cantidad === stock || stock === 0}
+                >
+                    +
+                </button>
+            </div>
             <br/>
 
-            <button disabled={stock === 0} onClick={agregar} className="btn btn-success">Agregar al carrito</button>
+            <button disabled={stock === 0} onClick={agregar} className="btn btn-primary">Agregar al carrito</button>
         </div>
     )
 }

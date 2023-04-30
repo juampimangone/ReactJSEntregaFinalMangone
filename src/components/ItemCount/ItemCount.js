@@ -1,4 +1,4 @@
-
+import './ItemCount.scss'
 
 const ItemCount = ({stock, cantidad, setCantidad, agregar}) => {
 

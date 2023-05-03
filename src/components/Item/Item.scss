@@ -4,11 +4,22 @@
     border-color: black;
     border-style:double;
     border-radius: 2.5%;
-    border-width: 2px;
+    border-width: 5px;
     margin:4%;
     padding: 5px;
-    height: 80%;
+    background-color: rgba(0, 0, 0, 0.100);;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
     img{
         width: 250px;
+        border-style: solid;
+        border-radius: 5px;
+        border-width: 2px;
+    }
+    &:hover{
+        background-color: rgba(0, 0, 0, 0.425);
     }
 }
